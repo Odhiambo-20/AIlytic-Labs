@@ -1,9 +1,9 @@
 import React from 'react'
 
-function sandboxlab() {
+function Sandboxlab() {
   return (
     <div>sandbox lab</div>
   )
 }
 
-export default sandboxlab
+export default Sandboxlab
