@@ -11,7 +11,8 @@ import sandboxlab from './pages/sandboxlab';
 
 export default function App() {
   return<BrowserRouter>
-   <Routes>
+  <Navbar>
+     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/robots" element={<Robots/>} />
         <Route path="/drones" element={<Drones />} />
@@ -21,9 +22,8 @@ export default function App() {
         <Route path="/sandboxlab" element={<sandboxlab />} />
         {/* Add more routes as needed */}
       </Routes>
-  
+  </Navbar>
   </BrowserRouter>
   
 }
 
-export default App;
