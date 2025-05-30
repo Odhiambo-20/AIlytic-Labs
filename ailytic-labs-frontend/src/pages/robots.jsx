@@ -1,9 +1,9 @@
 import React from 'react'
 
-function robots() {
+function Robots() {
   return (
     <div>robots</div>
   )
 }
 
-export default robots
+export default Robots

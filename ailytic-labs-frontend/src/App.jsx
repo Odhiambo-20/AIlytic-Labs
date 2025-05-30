@@ -2,10 +2,10 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Robots from './pages/Robots';
-import Drones from './pages/Drones';
-import Company from './pages/Company';
-import Applications from './pages/Applications';
+import Robots from './pages/robots';
+import Drones from './pages/drones';
+import Company from './pages/company';
+import Applications from './pages/applications';
 import Contact from './pages/contact';
 import SandboxLab from './pages/sandboxlab';  
 
